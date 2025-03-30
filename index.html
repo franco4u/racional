@@ -23,6 +23,21 @@
     font-size:50px;
   }
  </style> 
+	<script>
+  
+     function salvarConteudoDiv() {
+      const conteudo = document.getElementById('chat-log').textContent;
+      const nomeArquivo = 'chatbotRacional.txt';
+
+      const blob = new Blob([conteudo], { type: 'text/plain' });
+      const url = URL.createObjectURL(blob);
+      const link = document.createElement('a');
+      link.href = url;
+      link.download = nomeArquivo;
+      link.click();
+      URL.revokeObjectURL(url);
+    }
+  </script>
 </head>
 <body>
 
@@ -45,7 +60,7 @@
 
    <div class="form">
      <input type="text" id="user-input" >
-     <button id="send-button" >Enviar</button> 
+     <button id="send-button" >Enviar</button> <button onclick="salvarConteudoDiv()">Salvar</button>
   </div>
 
 <center>
