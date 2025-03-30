@@ -21,7 +21,7 @@ async function loadDatabase() {
 
 function appendMessage(message, sender) {
     const messageDiv = document.createElement('div');
-    messageDiv.textContent = ` ${sender}: ${message} `;
+    messageDiv.innerHTML = ` <h1>${sender}: ${message}</h1>`;
     chatLog.appendChild(messageDiv);
 }
 
