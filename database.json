@@ -1,0 +1,92 @@
+{
+  "saudacoes": {
+    "perguntas": ["oi", "olá", "ola", "bom dia", "boa tarde", "boa noite", "manoel", "manuel"],
+    "respostas": ["Pois não, como posso ajudar?"]
+  },
+
+    "sobre_alma": {
+    "perguntas": ["o que é a alma", 
+                  "sobre a alma"],
+
+    "respostas": ["É uma energia que está materializada em forma de máquina do raciocínio, que é um Habitante do MUNDO RACIONAL que está materializado dessa forma."]
+  },
+ 
+ "sobre_alma2": {
+    "perguntas": ["verdadeira alma", "existe alma"],
+    "respostas": ["A alma não existe, a verdadeira alma é o coração."]
+  },
+
+   "sobre_alma3": {
+    "perguntas": ["alma da vida"],
+    "respostas": ["Então, onde está a alma da vida? Está na força elétrica e magnética em que botaram o nome de alma. Disseram então que todos tinham alma, mas a alma é esta: a força elétrica e magnética."]
+  },
+
+   "sobre_alma4": {
+    "perguntas": [ "temos alma", 
+                  "tem alma"],
+    "respostas": ["Então criaram esta palavra cabalística ALMA coisa que ninguém nunca teve, como ninguém nunca teve espírito no corpo."]
+  },
+
+  "sobre_cultura": {
+    "perguntas": ["o que é a cultura racional", 
+                  "o que é cultura racional",
+                  "sobre a cultura racional",
+                  "sobre cultura racional"],
+
+    "respostas": ["Pois bem, a Cultura Racional é um conhecimento extraterrestre."]
+  },
+
+  "sobre_imunização":{
+    "perguntas": ["o que é imunização", 
+                  "sobre a imunização", 
+                  "sobre imunização", 
+                  "o que é a imunização"],
+   
+   "respostas": ["A imunização racional é quando o seu corpo material é guiado pela energia racional."]
+  },
+
+    "sobre_espírito":{
+        "perguntas": ["tem espírito",  
+                      "meu espírito", 
+                      "tenho espírito"],
+        
+        "respostas": ["Como quem já passou a se conhecer, sabe perfeitamente que ninguém tem espírito no corpo, nem alma e, por isso, nunca foi provada e comprovada a existência da alma e nem do espírito. "]
+
+  },
+
+      "sobre_espírito2":{
+        "perguntas": ["existe espírito"],
+        
+        "respostas": ["Se existisse, ninguém tirava a vida de outro, com medo da represália do espírito, da vingança do espírito."]
+
+  },
+    
+  "ajuda":{
+        "perguntas": ["pode me ajudar", "ajuda", "como usar isso"],
+        "respostas": ["Claro! Qual a sua dúvida.", 
+                      "Estou aqui para ajudar."]
+
+  },
+    
+
+    "links":{
+        "perguntas": ["link", "site", "endereço"],
+        "respostas":  [ "site: http://index.htm", "site:http://localhost/chatbot"]
+
+    },
+    
+    "imagem":{
+        "perguntas": ["foto", "modelo", "mascote"],
+        "respostas":  [ "Infelizmente a gente nÃ£o tem nenhuma foto."]
+                            
+    },
+    
+    "despedida":{
+        "perguntas": ["tchau", "até logo", "adeus", "obrigado"],
+        "respostas": ["Tchau!", "Até a próxima!", "De nada."]
+    },
+    
+    "fallback":{
+        "respostas": ["Desculpe, não entendi.", "Poderia reformular a pergunta?"]
+    }
+}
