@@ -5,7 +5,7 @@ const sendButton = document.getElementById('send-button');
 async function loadDatabase() {
     try {
         console.log('Tentando carregar database.json...'); // Adicionado para depuração
-        const response = await fetch('../racional/database.json');
+        const response = await fetch('database.json');
         console.log('Resposta do fetch:', response); // Adicionado para depuração
         if (!response.ok) {
             throw new Error(`Erro ao carregar database.json: ${response.status}`);
